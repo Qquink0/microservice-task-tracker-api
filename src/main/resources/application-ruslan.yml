@@ -1,0 +1,6 @@
+---
+server:
+  port: 9120
+spring:
+  jpa:
+    show-sql: true
