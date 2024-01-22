@@ -17,8 +17,11 @@ public class TaskStateDTO {
     @NonNull
     Long id;
 
-    @NonNull
-    Long ordinal;
+    @JsonProperty("left_task_state_id")
+    Long leftTaskStateId;
+
+    @JsonProperty("right_task_state_id")
+    Long rightTaskStateId;
 
     @NonNull
     String name;
